@@ -14,7 +14,7 @@ In this paper, an evaluation of the biases existing in the measurement of heart 
 
 # Dataset
 
-The 'Data' folder contains the video data of subjects from India and Sierra Leone. As the participants have given permission for their de-indentified video data to be shared publicly, we generated 3 videos from the facial video of each subject. The 3 videos generated for each subject are described below and the corresponding regions on the face are shown in the accompanying figure.
+The 'Data' folder contains the video data of subjects from India and Sierra Leone. As the participants have given permission for their de-indentified video data to be shared publicly, we generated 3 videos from the facial video of each subject. The 3 videos generated for each subject are described below and the corresponding regions (R1: Forehead, R2: Left Cheek, R3: Right Cheek) on the face are shown in the accompanying figure.
 
 1) Rectangular region of 60 x 30 pixels of the forehead 
 2) Rectangular region of 25 x 25 pixels of the left cheek (the left of the viewer)
@@ -26,7 +26,7 @@ The ground truth mean heart rate for each video is provided in the respective '.
 
 # Running the scripts
 
-The results of the heart rate obtained using 5 rPPG approaches - CHROM [1](https://iopscience.iop.org/article/10.1088/0967-3334/35/9/1913), BKF [2](https://www.osapublishing.org/boe/fulltext.cfm?uri=boe-9-2-873&id=381227), Spherical Mean [3](https://ieeexplore.ieee.org/document/9022571), DeepPhys [4](https://arxiv.org/abs/1805.07888) and POS [5](https://ieeexplore.ieee.org/document/7565547), have been tabulated in the file 'Results_Final_Main.csv'. 
+The results of the heart rate obtained using 5 rPPG approaches - CHROM [[1]](https://iopscience.iop.org/article/10.1088/0967-3334/35/9/1913), BKF [[2]](https://www.osapublishing.org/boe/fulltext.cfm?uri=boe-9-2-873&id=381227), Spherical Mean [[3]](https://ieeexplore.ieee.org/document/9022571), DeepPhys [[4]](https://arxiv.org/abs/1805.07888) and POS [[5]](https://ieeexplore.ieee.org/document/7565547), have been tabulated in the file 'Results_Final_Main.csv'. 
 The python script 'HypoTest_Results_p.py' provides hypothesis test results (p-values) obtained for the hypothesis tests detailed in the paper. 
 The python script 'blandaltman.py' provides the Bland Altman plots for the results obtained using rPPG approaches, as compared to the results obtained using the ground truth Masimo device 
 
