@@ -35,4 +35,4 @@ The python script 'blandaltman.py' provides the Bland Altman plots for the resul
 # Citation
 If you use any of the data or resources provided on this page in any of your publications we ask you to cite the following work.
 
-Dasari, A., Prakash, S.K.A., Jeni, L.A. et al. Evaluation of biases in remote photoplethysmography methods. npj Digit. Med. 4, 91 (2021). https://doi.org/10.1038/s41746-021-00462-z
+Dasari, A., Prakash, S. K. A., Jeni, L. A., & Tucker, C. S. (2021). Evaluation of biases in remote photoplethysmography methods. NPJ digital medicine, 4(1), 1-13. https://doi.org/10.1038/s41746-021-00462-z
