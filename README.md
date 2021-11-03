@@ -24,7 +24,7 @@ The ground truth mean heart rate for each video is provided in the respective '.
 
 # Running the scripts
 
-The results of the heart rate obtained using 5 rPPG approaches (CHROM, BKF, Spherical Mean, DeepPhys and POS) have been tabulated in the file 'Results_Final_Main.csv'. 
+The results of the heart rate obtained using 5 rPPG approaches - CHROM [1](https://iopscience.iop.org/article/10.1088/0967-3334/35/9/1913), BKF [2](https://www.osapublishing.org/boe/fulltext.cfm?uri=boe-9-2-873&id=381227), Spherical Mean [3] (https://ieeexplore.ieee.org/document/9022571), DeepPhys [4] (https://arxiv.org/abs/1805.07888) and POS [5] (https://ieeexplore.ieee.org/document/7565547), have been tabulated in the file 'Results_Final_Main.csv'. 
 The python script 'HypoTest_Results_p.py' provides hypothesis test results (p-values) obtained for the hypothesis tests detailed in the paper. 
 The python script 'blandaltman.py' provides the Bland Altman plots for the results obtained using rPPG approaches, as compared to the results obtained using the ground truth Masimo device 
 
